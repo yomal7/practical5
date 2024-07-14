@@ -1,0 +1,5 @@
+*.pdf
+.bsp
+.metals
+.scala-build
+.vscode
