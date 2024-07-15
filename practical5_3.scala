@@ -12,5 +12,8 @@ def fibonacciSeq(n: Int): Unit = {
 }
 
 @main def practical5_3(): Unit = {
-    fibonacciSeq(10-1)
+    println("Enter a number: ")
+    val num = scala.io.StdIn.readInt()
+    println(s"First ${num} fibonacci numbers : ")
+    fibonacciSeq(num-1)
 }
